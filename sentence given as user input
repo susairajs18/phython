@@ -1,0 +1,7 @@
+#sentence given as user input 
+text=raw_input("Enter a String: ")
+words = text.split()
+Count = len(words)
+print Count
+
+#By Delpin Susai Raj
