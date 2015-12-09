@@ -1,0 +1,9 @@
+#6 appears as either the first or last element in the list
+
+a = [16, 6, 30,61,6,12,14]
+m=6
+for i in range(len(a)):
+ if m==a[i]:
+   print 'true'
+   
+   #By Delpin Susai Raj
