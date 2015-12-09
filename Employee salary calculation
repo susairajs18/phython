@@ -1,18 +1,8 @@
 #Employee salary calculation
 
-hrs = raw_input("Enter hours: ")
-rt = raw_input("Enter rate: ")
-hours = float(hrs)
-rate = float(rt)
-
-if hours > 40:
-    extra_hours = hours - 40
-    extra_rate = rate * 1.5
-    pay = rate * hours + (extra_rate * extra_hours)
-    print "Pay:", pay
-else:
-    pay = rate * hours
-    print "Pay:", pay
+basic=int(input("Enter a Salary: "))
+hra = basic * 0.4
+print hra
     
     
     #By Delpin Susai Raj
