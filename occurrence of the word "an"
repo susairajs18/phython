@@ -1,0 +1,5 @@
+#occurrence of the word "an"
+text=raw_input("Enter a String: ")
+print text.count("an")
+
+#By Delpin Susai Raj
