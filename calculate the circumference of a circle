@@ -1,0 +1,9 @@
+
+#calculate the circumference of a circle
+
+n = int(input("Enter a number: "))
+c=2*3.14*n
+print 'Circumfrence of circle=',c
+
+
+# By Delpin Susai Raj
